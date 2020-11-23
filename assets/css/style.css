@@ -64,7 +64,7 @@
     color: white;
     }
 
-.border {
+.shadow {
     transition: all .5s;
     border: 10px solid transparent
 }
