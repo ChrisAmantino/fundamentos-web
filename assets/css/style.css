@@ -64,6 +64,16 @@
     color: white;
     }
 
+.border {
+    transition: all .5s;
+    border: 10px solid transparent
+}
+
+.shadow:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
 /*Estilos da página contato.html*/
 
 .ml-50 {
