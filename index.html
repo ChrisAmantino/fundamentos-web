@@ -4,68 +4,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Turnê Metallica</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <body class="body">
 
-    <ul id="menu">
-        <li><a href=index.html>Home</a></li>
-        <li><a href=contato.html>Contato</a></li>
-    </ul>
-
-    <h1 class="center">Metallica adia novamente sua turnê!</h1>
-    <div class="container">
-        <div class="p-30">
-            <p class="justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum enim numquam nisi beatae rerum itaque
-                molestiae
-                sequi minima qui. Ad neque veniam illum nihil culpa atque, magnam perspiciatis in necessitatibus!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quasi aperiam natus nesciunt odit
-                adipisci
-                ea voluptas ex. Asperiores voluptatum commodi rerum? Illo impedit soluta doloribus vitae facere sapiente
-                repellat.
-            </p>
-            <p class="justify">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos illum dolor ex, accusamus saepe id
-                officia, enim
-                tempore quis soluta quas, earum illo nisi praesentium doloremque cupiditate ipsa similique magni.
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non culpa aperiam accusamus doloribus nam
-                veniam
-                veritatis dolorem at omnis quo! Error quas autem cum. Placeat porro veniam voluptates a quaerat!
-            </p>
+    <!--Menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <a class="navbar-brand" href="index.html">Hardwired Brasil</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link text-white-50" href="index.html">Home<span class="sr-only">(Página
+                            atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white-50" href="contato.html">Contato</a>
+                </li>
+            </ul>
         </div>
-        <div>
-            <img class="br-50 wh-300 p-30" src="assets/img/metallica-hardwired.jpg"
-                alt="Foto da banda Metallica, da esquerda para a direita:Kirk Hammet, Lars Ulrich, Robert Trujillo, James Hetfield">
+    </nav>
+    <!--/Menu-->
+
+    <!--Carousel-->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="assets/img/Metallica-carousel-1.jpg" alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/metallica-carousel-2.jpg" alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/metallica-carousel-3.jpg" alt="Terceiro Slide">
+            </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
     </div>
+    <!--Carousel-->
 
-    <h2 class="center">Turnê realizada na Europa:</h2>
-
-    <div class="container mb-50">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/47-_YSyQ5K8" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
-    <hr>
-    <footer class="center">
+    <!--Jumbotroun-->
+    <div class="jumbotron jumbotron-fluid bg-secondary">
         <div class="container">
-            <a href="https://pt-br.facebook.com/christian.garcia.5876060" target="_blank">
-                <img class="tm-social p-30 shadow" src="assets/img/facebook.png" alt="Logo do Facebook">
-            </a>
-            <a href="https://br.linkedin.com/in/christian-garcia-amantino-0775101a7" target="_blank">
-                <img class="tm-social p-30 shadow" src="assets/img/linkedin.png" alt="Logo do LinkedIn">
-            </a>
-            <a href="https://github.com/ChrisAmantino" target="_blank">
-                <img class="tm-social p-30 shadow" src="assets/img/github.png" alt="Logo do Github">
-            </a>
+            <h1 class="display-4">Metallica Hardwired Brasil</h1>
+            <p class="lead">Aqui você encontra as notícias mais recentes sobre a banda Metallica e sua turnê mais
+                recente: "Hardwired to Self-Destruct"</p>
         </div>
-        <p>
-            Todos os direitos reservados: Christian G. Amantino &copy;
-        </p>
-    </footer>
+    </div>
+    <!--/Jumbotroun-->
+
+    <!--Texto e imagem-->
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-12">
+                <h1 class="center">Metallica adia novamente sua turnê!</h1>
+            </div>
+        </div>
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum enim numquam nisi beatae rerum
+                    itaque
+                    molestiae
+                    sequi minima qui. Ad neque veniam illum nihil culpa atque, magnam perspiciatis in necessitatibus!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quasi aperiam natus nesciunt
+                    odit
+                    adipisci
+                    ea voluptas ex. Asperiores voluptatum commodi rerum? Illo impedit soluta doloribus vitae facere
+                    sapiente
+                    repellat.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos illum dolor ex, accusamus saepe id
+                    officia, enim
+                    tempore quis soluta quas, earum illo nisi praesentium doloremque cupiditate ipsa similique magni.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non culpa aperiam accusamus doloribus nam
+                    veniam
+                    veritatis dolorem at omnis quo! Error quas autem cum. Placeat porro veniam voluptates a quaerat!
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img class="br-50 wh-300 p-30" src="assets/img/metallica-hardwired.jpg"
+                    alt="Foto da banda Metallica, da esquerda para a direita:Kirk Hammet, Lars Ulrich, Robert Trujillo, James Hetfield">
+            </div>
+        </div>
+        <!--/Texto e imagem-->
+
+        <!--texto e video-->
+        <div class="row mb-3 md-5">
+            <div class="col-md-12">
+                <h5 class="text-center">Turnê realizada na Europa:</h5>
+            </div>
+        </div>
+
+        <div class="row md-5 mb-5 d-flex align-items-center">
+            <div class="col-md-6">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique corporis nesciunt suscipit
+                    ipsam? Aspernatur tenetur sed libero, ducimus odio ex ullam harum est, quos alias voluptas eos
+                    officiis facere cupiditate.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic expedita dolor porro placeat sed,
+                    nulla ad voluptates. Reiciendis totam in fugiat, harum distinctio, et ducimus autem quidem
+                    aspernatur vitae voluptatum?
+                </p>
+            </div>
+            <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/47-_YSyQ5K8" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <!--/texto e video-->
+        <hr>
+        <!--footer-->
+        <hr>
+        <footer>
+            <div class="row mb-3">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <a href="https://pt-br.facebook.com/christian.garcia.5876060" target="_blank" class="p-3">
+                        <img class="tm-social p-2" src="assets/img/facebook.png" alt="Logo do Facebook">
+                    </a>
+                    <a href="https://br.linkedin.com/in/christian-garcia-amantino-0775101a7" target="_blank"
+                        class="p-3">
+                        <img class="tm-social p-2" src="assets/img/linkedin.png" alt="Logo do LinkedIn">
+                    </a>
+                    <a href="https://github.com/ChrisAmantino" target="_blank" class="p-3">
+                        <img class="tm-social p-2" src="assets/img/github.png" alt="Logo do Github">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">
+                        Todos os direitos reservados: Christian G. Amantino &copy;
+                    </p>
+                </div>
+
+            </div>
+        </footer>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
 </body>
 

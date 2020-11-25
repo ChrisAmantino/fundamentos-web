@@ -23,6 +23,7 @@ nome.style.color = 'white'
 email.style.width = '100%'
 email.style.backgroundColor = '#485460'
 email.style.color = 'white'
+assunto.style.width = '100%'
 assunto.style.backgroundColor = '#485460'
 assunto.style.color = 'white'
 
